@@ -1,0 +1,58 @@
+1.self is a default paramaeter that the methods of a class accept.
+ it is needed in order to access attributes of the class
+ 
+2.none of the attributes and methods are accessible outside the class unless 
+ you create objects of the class
+ 
+3.everything in python is an object
+
+4.different types of attributes- class attributes and instance attributes
+
+5.diferent types of methods- static methods and instance methods
+
+5.1 Python checks in this order:
+Instance attributes
+		|
+		|
+		V
+Class attributes
+		|
+		|
+		V
+	  Error
+
+6.fully initialize an object by a special method in python called init() method
+
+7.self parameter
+
+8.Abstraction and Encapsulation co-exist.
+ Encapsulation(method body) is done to achieve abstraction(method name).
+ 
+9.Inheritance-reduces a lot of code and helps in code re-usability
+base/parent class ==> derived/child class
+
+Instance attributes
+		|
+		|
+		V
+Class attributes
+		|
+		|
+		V
+Base class attribute
+	  	|	
+		|
+		V
+	  Error
+		
+		
+	Single Inheritance, Multiple Inheritance, Multilevel Inheritance, accessSpecifiers
+	
+10.Polymorphism - is the characteristic of an entity to be present in more than one form
+ Polymorphic property of overriding - An inherited method will not behave the same in the derived class.
+									  Derived class has the ability to change how this method works by redefining it using overriding
+11.Abstract base class
+	Abstract class is a class which doesn't have a definition of its own, but has abstract methods which forces the implementation in its derived classes.
+	An abstract class can only be inherited in its derived classes, but cannot have objects belonging to it.
+	
+12.Decorators are functions that take in functions and extend their functionality
